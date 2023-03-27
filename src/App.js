@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import brand from './Zoomedin_BRAND.png'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <nav>
+            <div id='brand_visual'>
+            <img src={brand} height='300px'/>
+            </div>
+            
+            <div id='brand_navigation'>
+            <a>Logos</a>
+            <a>Posters</a>
+            <a>Typography</a>
+            <a>Client Testimonials</a>
+            </div>
+        </nav>
+        <div id='brand_enquiry' >
+              <h3>Call: 9908310954</h3>
+              <h3>Email: aneeshsiddhartha@gmail.com</h3>
+        </div>
     </div>
   );
 }
